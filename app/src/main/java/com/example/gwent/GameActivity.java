@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.AbsoluteLayout;
+import android.widget.ImageView;
 
 /**
  * Created by Александр on 27.06.2016.
@@ -29,6 +30,10 @@ public class GameActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v){
 
+        ImageView img = new ImageView(this);
+        img.setBackgroundResource(R.drawable.card_test_v1);
+
+        AbsLay.addView(img);
 
     }
 }
