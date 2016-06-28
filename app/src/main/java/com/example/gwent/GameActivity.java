@@ -30,6 +30,7 @@ public class GameActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v){
 
+
         ImageView img = new ImageView(this);
         img.setBackgroundResource(R.drawable.card_test_v1);
 
